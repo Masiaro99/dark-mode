@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+
+
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+li {
+    padding: 30px;
+}
+.info { 
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+}
+p { font-size: 50px;}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: green;
+    color: green;
+    
+}
+li button:hover{
+    background-color: black;
+    color: white;
+}
+#id {
+    cursor: pointer;
+}
